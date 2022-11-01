@@ -620,12 +620,26 @@ header .search-bar-container label:hover {
 @media (max-width:1200px) {
 
     html {
-        font-size: 55%
+        font-size: 55%;
+        width: -webkit-fill-available;
     }
 
 }
 
-@media (max-width:991px) {
+/* @media (max-width:991px) {
+
+    html{
+        width: -webkit-fill-available;
+    }
+    .home .content{
+        position: relative;
+        right: -5rem;
+    }
+
+    .home .controls{
+        position: relative;
+        right: 2rem
+    }
     header {
         padding: 2rem;
     }
@@ -633,9 +647,23 @@ header .search-bar-container label:hover {
     section {
         padding: 2rem;
     }
-}
+} */
 
 @media (max-width: 768px) {
+    html {
+        width: -webkit-fill-available;
+    }
+
+    .home .content {
+        position: relative;
+        left: 6rem;
+    }
+
+    .home .controls {
+        position: relative;
+        left: -16rem;
+        display: flex;
+    }
 
     #menu-bar {
         display: initial;
@@ -669,7 +697,9 @@ header .search-bar-container label:hover {
 
     html {
         font-size: 50%;
+        width: -webkit-fill-available;
     }
+
     .heading span {
         font-size: 2.5rem;
     }
