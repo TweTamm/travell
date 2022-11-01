@@ -1,0 +1,579 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>complete responsive tour and travel agency website design tutorial</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.css"
+    integrity="sha512-wbWvHguVvzF+YVRdi8jOHFkXFpg7Pabs9NxwNJjEEOjiaEgjoLn6j5+rPzEqIwIroYUMxQTQahy+te87XQStuA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- font awesome cnd link -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+<!-- custom css file link -->
+<link rel="stylesheet" href="/style.css">
+</head>
+<body>
+     <!-- header section starts -->
+     <header>
+
+        <div id="menu-bar" class="fas fa-bars"></div>
+        <a href="#" class="logo"><span>T&E</span></a>
+
+        <nav class="navbar">
+            <a href="#home">home</a>
+            <a href="#book">book</a>
+            <a href="#packages">packages</a>
+            <a href="#services">services</a>
+            <a href="#gallery">gallery</a>
+            <a href="#review">review</a>
+            <a href="#contact">contact</a>
+        </nav>
+
+        <div class="icons">
+            <i class="fas fa-search" id="search-btn"></i>
+            <i class="fas fa-user" id="login-btn"></i>
+        </div>
+
+        <form action="" class="search-bar-container">
+            <input type="search" id="search-bar" placeholder="search here...">
+            <label for="search-bar" class="fas fa-search"></label>
+        </form>
+
+    </header>
+
+    <!-- header section ends -->
+
+    <!-- login form container -->
+
+    <div class="login-form-container">
+
+        <i class="fas fa-times" id="form-close"></i>
+        <form action="">
+            <h3>login</h3>
+            <input type="email" class="box" placeholder="Enter your email">
+            <input type="password" class="box" placeholder="Enter your password">
+            <input type="submit" value="login now" class="btn">
+            <input type="checkbox" id="remember">
+            <label for="remember">remember me</label>
+            <p>forget password? <a href="#">click here</a></p>
+            <p>don't have an account? <a href="#">register now</a></p>
+        </form>
+    </div>
+
+    <!-- home section starts -->
+    <section class="home" id="home">
+
+        <div class="content">
+            <h3>adventure is worthwhile</h3>
+            <p>discover new place with us, adventure awaits</p>
+            <a href="#" class="btn">discover more</a>
+        </div>
+
+        <div class="controls">
+            <span class="vid-btn active" src="assets/videos/vid1.mp4"></span>
+            <span class="vid-btn" src="assets/videos/vid4.mp4"></span>
+            <span class="vid-btn" src="assets/videos/vid5.mp4"></span>
+        </div>
+
+        <div class="video-container">
+            <video src="assets/videos/vid1.mp4" id="video-slider" loop autoplay muted></video>
+        </div>
+
+
+    </section>
+
+    <!-- home section end -->
+
+    <!-- book section start -->
+
+    <section class="book" id="book">
+
+        <h1 class="heading">
+            <span>b</span>
+            <span>o</span>
+            <span>o</span>
+            <span>k</span>
+            <span class="space"></span>
+            <span>n</span>
+            <span>o</span>
+            <span>w</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="assets/imgs/img1.jpg">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <h3>where to</h3>
+                    <input type="text" placeholder="place name">
+                </div>
+                <div class="inputBox">
+                    <h3>how many</h3>
+                    <input type="text" placeholder="number of guests">
+                </div>
+                <div class="inputBox">
+                    <h3>arrivals</h3>
+                    <input type="date">
+                </div>
+                <div class="inputBox">
+                    <h3>leaving</h3>
+                    <input type="date">
+                </div>
+                <input type="submit" class="btn" value="book now">
+            </form>
+
+        </div>
+    </section>
+    <!-- book section end -->
+
+    <!-- packages section start -->
+    <section class="packages" id="packages">
+        <h1 class="heading">
+            <span>p</span>
+            <span>a</span>
+            <span>c</span>
+            <span>k</span>
+            <span>a</span>
+            <span>g</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <img src="assets/imgs/img2.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Nha Trang</h3>
+                    <p>Nha Trang not only gets great natural advantages of its geography position, landscape, and
+                        climate, but inherits its rich background in culture and humanities as well. It is one of the
+                        most beautiful beaches in Vietnam.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00<span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/imgs/img3.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Đa Nang</h3>
+                    <p>Da Nang city lies in the Midlands of Viet Nam, from which Ha Noi capitol in the north and Ho Chi
+                        Minh city in the south are almost equally spaced. Da Nang is also the central point connecting
+                        three UNESCO World Heritage sites.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00<span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/imgs/img4.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Hoi An</h3>
+                    <p>Hoi An Viet Nam is located in Quang Nam province, Central Vietnam. Peaceful and ancient, Hoi An
+                        is one of the most famous tourist destinations in the Central Vietnam that attracts not only
+                        domestic tourists but also tourists all over the continents.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00<span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/imgs/img5.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Ho Chi Minh</h3>
+                    <p>Ho Chi Minh City, formerly known as Saigon, once “The Pearl of the Far East” is the second
+                        largest city in Vietnam. It is the most crowded city in the country
+                        with the official population of over 8 million people on the total area of over 2,095 km2.
+                    </p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00<span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/imgs/img6.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Ha Long</h3>
+                    <p>Halong Bay, known in Vietnam as Vịnh Hạ Long, takes its name from
+                        the dragons which, legend holds, defended the area from Chinese invaders in ancient times and
+                        created the islets that fill the bay. This myth also gives names to nearby Bai Tu Long Bay.</p>
+
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00<span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="assets/imgs/img7.jpg" alt="">
+                <div class="content">
+                    <h3><i class="fas fa-map-marker-alt"></i>Da Lat</h3>
+                    <p>Dalat’s specific sights are pine forest with twisting roads and tree marigold, cherry blossom in
+                        the winter. The city’s temperate weather stands in contrast to Vietnam’s otherwise tropical
+                        climate. You will like it when visit here.</p>
+                    <div class="stars">
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                        <i class="fas fa-star"></i>
+                    </div>
+                    <div class="price"> $90.00<span>$120.00</span></div>
+                    <a href="#" class="btn">book now</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- packages section end -->
+
+    <!-- services section start -->
+    <section class="services" id="services">
+
+        <h1 class="heading">
+            <span>s</span>
+            <span>e</span>
+            <span>r</span>
+            <span>v</span>
+            <span>i</span>
+            <span>c</span>
+            <span>e</span>
+            <span>s</span>
+        </h1>
+
+        <div class="box-container">
+            <div class="box">
+                <i class="fas fa-hotel"></i>
+                <h3>affordable hotels</h3>
+                <p>Have a lot of affordable and beautiful hotel in Vietnam. You can search on Google to know more!</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-utensils"></i>
+                <h3>food and drinks</h3>
+                <p>When you visit Viet Nam. You can't imagine that is the city have a lof of varies food and drinks. And
+                    it's so delicious and cheap.</p>
+            </div>
+            <div class="box">
+                <i class="fas fa-bullhorn"></i>
+                <h3>safty guide</h3>
+                <p>You can go with friends or family. Don't worry when you not know address because people in Viet Nam
+                    so friendly and kind.</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-globe-asia"></i>
+                <h3>around the world</h3>
+                <p>Viet Nam is the famous country and have a lot of people know. Every year, have a lot of traveler
+                    around the world go here. Like China, Korean, Russian, ...</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-plane"></i>
+                <h3>fastest travel</h3>
+                <p>Do not hesitate any longer without coming to explore this beautiful S-shaped country!</p>
+            </div>
+
+            <div class="box">
+                <i class="fas fa-hiking"></i>
+                <h3>adventures</h3>
+                <p>Have a lot of beautiful thing to adventure when you go to Vietnam. Like people, place, sea, famous
+                    bridge,...</p>
+            </div>
+        </div>
+    </section>
+    <!-- services ssection end -->
+
+    <!-- gallery section start -->
+    <section class="gallery" id="gallery">
+
+        <h1 class="heading">
+            <span>g</span>
+            <span>a</span>
+            <span>l</span>
+            <span>l</span>
+            <span>e</span>
+            <span>r</span>
+            <span>y</span>
+        </h1>
+
+        <div class="box-container">
+
+            <div class="box">
+                <img src="./assets/imgs/img8.jpg" alt="Phu Quoc">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Phu Quoc pearl is known as a tourist paradise. Phu Quoc tourism is
+                        famous for its beautiful and pristine beaches.
+                    </p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./assets/imgs/img9.jpg" alt="Nha Trang">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>The picturesque beauty of Nha Trang tourist destination leaves an indelible impression in the
+                        hearts of visitors.
+                    </p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/imgs/img10.jpg" alt="Hoi an">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Hoi An is one of the top destinations of Central Vietnam with many beautiful landscapes and
+                        unique cuisine.
+                    </p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+            <div class="box">
+                <img src="./assets/imgs/img11.jpg" alt="Da Nang">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>To discover Central Vietnam, you can't ignore the tourist destination of Da Nang.
+                        This's city of many beautiful bridges.
+                    </p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./assets/imgs/img12.jpg" alt="Ho Chi Minh">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Ho Chi Minh is the most dynamic and bustling city in our country. Visitors can admire the
+                        bustling and crowded streets
+                    </p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./assets/imgs/img13.jpg" alt="Thanh Hoa">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Many beautiful landscapes, historical sites, and clear blue beaches make Thanh Hoa always attract
+                        tourists to visit.
+                    </p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./assets/imgs/img14.jpg" alt="Can Tho">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>The beautiful of the river, the unique cuisine and the friendly people
+                        make Can Tho an attractive destination for tourists.
+                    </p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+
+            <div class="box">
+                <img src="./assets/imgs/img15.jpg" alt="Hue">
+                <div class="content">
+                    <h3>amazing places</h3>
+                    <p>Hue tourist destination has a quiet and dreamy beauty with many cultural and historical values.
+                    </p>
+                    <a href="#" class="btn">See more</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- gallery section end -->
+
+    <!-- review section start -->
+    <section class="review" id="review">
+        <h1 class="heading">
+            <span>r</span>
+            <span>e</span>
+            <span>v</span>
+            <span>i</span>
+            <span>e</span>
+            <span>w</span>
+        </h1>
+
+        <div class="swiper-container review-slider">
+
+            <div class="swiper-wrapper">
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./assets/imgs/img17.jpg" alt="">
+                        <h3>Charllot Austin</h3>
+                        <p>Nha Trang have a nice sea. I have swim in the morning. Have a lot of people there and they so
+                            friendly</p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./assets/imgs/img18.jpg" alt="">
+                        <h3>Kim Jisoo</h3>
+                        <p>Viet Nam so beautiful, I am so happy when go there. Ho Chi Minh is a pretty city.
+                            Have a lof of good food there.
+                        </p>
+                        <div class="stars">
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="fas fa-star"></i>
+                            <i class="far fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./assets/imgs/img19.jpg" alt="">
+                        <h3>Bruno Mars</h3>
+                        <p>Da Nang have bridges, they so beautiful and special. At night, have a lot of cute couple go
+                            there.</p>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="swiper-slide">
+                    <div class="box">
+                        <img src="./assets/imgs/img20.jpg" alt="">
+                        <h3>Katy Perry</h3>
+                        <p>I have visit Can Tho, this city have a lot of delicious food and very cheap. I will come back
+                            again.</p>
+                        <div class="stars">
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                            <i class="fa fa-star"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- review section end -->
+
+    <!-- contact section start -->
+    <section class="contact" id="contact">
+
+        <h1 class="heading">
+            <span>c</span>
+            <span>o</span>
+            <span>n</span>
+            <span>t</span>
+            <span>a</span>
+            <span>c</span>
+            <span>t</span>
+        </h1>
+
+        <div class="row">
+
+            <div class="image">
+                <img src="./assets/imgs/img21.jpg" alt="">
+            </div>
+
+            <form action="">
+                <div class="inputBox">
+                    <input type="text" placeholder="name">
+                    <input type="email" placeholder="email">
+                </div>
+                <div class="inputBox">
+                    <input type="number" placeholder="number">
+                    <input type="text" placeholder="subject">
+                </div>
+                <textarea placeholder="message" name="" id="" cols="30" rows="10"></textarea>
+                <input type="submit" class="btn" value="send message">
+            </form>
+        </div>
+    </section>
+    <!-- contact section end -->
+
+    <!-- footer section -->
+    <section class="footer">
+        <div class="box-container">
+            <div class="box">
+                <h3>Location</h3>
+                <a href="#">Ho Chi Minh</a>
+                <a href="#">Da Nang</a>
+                <a href="#">Nha Trang</a>
+                <a href="#">Da lat</a>
+            </div>
+            <div class="box">
+                <h3>quick links</h3>
+                <a href="#">home</a>
+                <a href="#">book</a>
+                <a href="#">packages</a>
+                <a href="#">services</a>
+                <a href="#">gallery</a>
+                <a href="#">review</a>
+                <a href="#">contact</a>
+            </div>
+            <div class="box">
+                <h3>facebook</h3>
+                <a href="#">instagram</a>
+                <a href="#">twitter</a>
+                <a href="#">linkedin</a>
+            </div>
+            <h1 class="credit">created by<span>TueTam</span> | all rights reserced!</h1>
+    </section>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Swiper/8.4.4/swiper-bundle.min.js"
+    integrity="sha512-k2o1KZdvUi59PUXirfThShW9Gdwtk+jVYum6t7RmyCNAVyF9ozijFpvLEWmpgqkHuqSWpflsLf5+PEW6Lxy/wA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+<script src="script.js"></script>
+</body>
+</html>
